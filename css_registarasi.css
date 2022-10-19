@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url(https://th.bing.com/th/id/R.e793d85117e8e47837511e9185a9f704?rik=VwzzO69GWSM2Jg&riu=http%3a%2f%2fpavbca.com%2fwalldb%2foriginal%2f8%2fb%2f9%2f94871.jpg&ehk=M0FXpfw2wKP7FYu%2bfn0dMFDNixAWdT856uCihs7JKgo%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-position: auto;
+    background-repeat: repeat;
+}
+
+.container{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 350px;
+
+    background-color: rgba(0,0,0,.7);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+}
+
+.container h1{
+    text-align: left;
+    color: #fafafa;
+    margin-bottom: 30px;
+}
+.container table{
+    text-align: left;
+    color: #ffffff;
+    font-style: italic;
+
+}

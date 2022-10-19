@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Halaman Login</title>
+        <link rel="stylesheet" href="css_registarasi.css">
+    </head>
+   
+    <body>
+        <div class="container">
+          <h1 align="center">Registrasi</h1>
+            <form>
+                <table>
+                    <tr>
+                        <td>Nama Depan</td>
+                        <td>:</td>
+                        <td><input type="text" name="Depan" /></td>
+                    </tr>
+                    <tr>
+                        <td>Nama Belakang</td>
+                        <td>:</td>
+                        <td><input type="text" name="Belakang" /></td>
+                    </tr>
+                        <td>Alamat</td>
+                        <td>:</td>
+                        <td><input type="text" name="Alamat" />
+                    </td>
+                        <tr><td>Tanggal Lahir</td>
+                        <td>:</td>
+                        <td><input type="date"/></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>:</td>
+                        <td><input type="radio" name="JK" value="L" />Laki-Laki
+                        <input type="radio" name="JK" value="P"/>Perempuan
+                    </td>
+                    </tr>
+                        <td>upload gambar</td>
+                        <td>:</td>
+                        <td><input type="file" name="gambar"</td>
+                        
+                    </tr>
+                    <td colspan="3">
+                        <form name="input" action="Proses.php" method="get">
+                        <input type="submit" value="Simpan"/>
+                        <input type="Reset" value="Reset"/>
+                        <button><a href="login.html">kembali</a></button>
+                    </td>
+                </table>
+            </form>
+        </div>     
+    </body>
+</html>
